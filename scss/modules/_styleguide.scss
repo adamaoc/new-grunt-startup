@@ -1,0 +1,72 @@
+
+.styleguide-wrapper {
+	text-align: center;
+	margin: 0 auto;
+	max-width: 1200px;
+	padding: 70px 0;
+
+	.module {
+		margin: 20px auto;
+		font-family: $header-font-family;
+		position: relative;
+		.moretxt {
+			color: lighten($light-tan, 15%);
+			p {
+				font-family: 'Helvetica' arial sans-serif;
+			}
+		}
+	}
+}
+
+.red {
+	background-color: $dark-red;
+	color: $light-tan;
+}
+
+.blue {
+	background-color: $dark-blue;
+	color: $light-tan;
+}
+
+.box-300-300 {
+	width: 300px;
+	height: 300px;
+	.glyphicon-bell {
+		font-size: 13em;
+		color: $light-tan;
+		line-height: 290px;
+	}
+}
+
+.rect {
+	text-align: left;
+	padding: 20px;
+	span, h1 {
+		display: inline-block;
+		font-size: 4em
+	}
+	.glyphicon {
+		
+	}
+}
+
+.twitter-bg {
+	width: 520px;
+	height: 260px;
+}
+
+.fb-bg {
+	width: 851px;
+	height: 315px;
+	.moretxt {
+		position: absolute;
+		width: 40%;
+		right: 20px;
+		top: 30px;
+	}
+}
+
+.gplus-bg {
+	width: 480px;
+	height: 270px;
+}

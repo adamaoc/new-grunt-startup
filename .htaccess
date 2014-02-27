@@ -1,0 +1,17 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+
+RewriteRule ^$ ./dist/index.html [L]
+RewriteRule ^/?$ ./dist/index.html [L]
+
+RewriteRule ^about$ ./dist/about.html [L]
+RewriteRule ^about/$ ./dist/about.html [L]
+
+RewriteRule ^contact$ ./dist/contact.html [L]
+RewriteRule ^contact/$ ./dist/contact.html [L]
+
+RewriteRule ^styleguide$ ./dist/styleguide.html [L]
+RewriteRule ^styleguide/$ ./dist/styleguide.html [L]

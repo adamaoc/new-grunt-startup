@@ -1,0 +1,197 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:700,300,400&subset=latin,latin-ext);
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/* Begin Typography & Colors */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, Verdana, sans-serif;
+  line-height: 1.875;
+  color: #444;
+  width: 100%;
+  background: url(../img/bg.jpg);
+  background-color: #F6F6F6;
+}
+
+a {
+  color: #FF3F00;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  height: 2px;
+  background-color: #DDDDDD;
+  width: 80%;
+  max-width: 50em;
+  border: 0;
+  margin-bottom: 50px;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Oswald', sans-serif;
+  line-height: 1.7;
+  font-weight: 400;
+  margin: 0;
+}
+
+h1 {
+  font-size: 5.625em;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.625em;
+}
+
+h3 {
+  font-size: 1.52em;
+}
+
+h4 {
+  font-size: 1.25em;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+.textH2 {
+  font: 42px/60px "Oswald";
+  font-weight: 300;
+  padding: 0px;
+  margin: 0px;
+  text-indent: 0px;
+  display: inline-block;
+}
+
+.textsmall {
+  font-size: 14px;
+  color: #999999;
+}
+
+ul, ol {
+  margin: 0;
+  text-align: left;
+  display: inline-block;
+}
+
+/* -----------------------------------
+---------------------------------
+---------------------------- */
+.page-wrap {
+  max-width: 50em;
+  padding: 1em;
+  margin: 0 auto;
+}
+
+.styleguide-wrapper {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 70px 0;
+}
+.styleguide-wrapper .module {
+  margin: 20px auto;
+  font-family: "Oswald", sans-serif;
+  position: relative;
+}
+.styleguide-wrapper .module .moretxt {
+  color: #f5f1d4;
+}
+.styleguide-wrapper .module .moretxt p {
+  font-family: 'Helvetica' arial sans-serif;
+}
+
+.red {
+  background-color: #7e2126;
+  color: #e7dd96;
+}
+
+.blue {
+  background-color: #004e80;
+  color: #e7dd96;
+}
+
+.box-300-300 {
+  width: 300px;
+  height: 300px;
+}
+.box-300-300 .glyphicon-bell {
+  font-size: 13em;
+  color: #e7dd96;
+  line-height: 290px;
+}
+
+.rect {
+  text-align: left;
+  padding: 20px;
+}
+.rect span, .rect h1 {
+  display: inline-block;
+  font-size: 4em;
+}
+
+.twitter-bg {
+  width: 520px;
+  height: 260px;
+}
+
+.fb-bg {
+  width: 851px;
+  height: 315px;
+}
+.fb-bg .moretxt {
+  position: absolute;
+  width: 40%;
+  right: 20px;
+  top: 30px;
+}
+
+.gplus-bg {
+  width: 480px;
+  height: 270px;
+}
