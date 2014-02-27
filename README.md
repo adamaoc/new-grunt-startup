@@ -1,4 +1,4 @@
-Liberty Websites
+Base Grunt Starup with base styling and more.
 ================
 
-Website stack for Liberty-Websites.com
+more to come...
